@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1617F72-0E67-4109-9436-A8E96D9B3F34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DUMP_RPGProjekt</RootNamespace>
+    <AssemblyName>DUMP_RPGProjekt</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\EnemyController.cs" />
+    <Compile Include="Controllers\GameController.cs" />
+    <Compile Include="Controllers\PlayerController.cs" />
+    <Compile Include="Controllers\QuestController.cs" />
+    <Compile Include="Controllers\ViewController.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Enemy.cs" />
+    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\Quest.cs" />
+    <Compile Include="Models\View.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\Armor_Items_Button_Clicked.png" />
+    <Content Include="Images\Armor_Items_Button_Hovered.png" />
+    <Content Include="Images\Armor_Items_Button_Unclicked.png" />
+    <Content Include="Images\Armor_Store_Button_Clicked.png" />
+    <Content Include="Images\Armor_Store_Button_Hovered.png" />
+    <Content Include="Images\Armor_Store_Button_Unclicked.png" />
+    <Content Include="Images\Dragon_BrokenEgg.png" />
+    <Content Include="Images\Dragon_Child.png" />
+    <Content Include="Images\Dragon_Egg.png" />
+    <Content Include="Images\Dragon_Hatchling.png" />
+    <Content Include="Images\Effect_001.png" />
+    <Content Include="Images\Effect_002.png" />
+    <Content Include="Images\Effect_003.png" />
+    <Content Include="Images\Effect_004.png" />
+    <Content Include="Images\Effect_005.png" />
+    <Content Include="Images\Effect_006.png" />
+    <Content Include="Images\Effect_007.png" />
+    <Content Include="Images\Effect_008.png" />
+    <Content Include="Images\Effect_009.png" />
+    <Content Include="Images\Effect_010.png" />
+    <Content Include="Images\Effect_011.png" />
+    <Content Include="Images\Effect_012.png" />
+    <Content Include="Images\Effect_013.png" />
+    <Content Include="Images\Effect_014.png" />
+    <Content Include="Images\Effect_Animation.gif" />
+    <Content Include="Images\Items_Button_Clicked.png" />
+    <Content Include="Images\Items_Button_Hovered.png" />
+    <Content Include="Images\Items_Button_Unclicked.png" />
+    <Content Include="Images\Items_Menu_Window.png" />
+    <Content Include="Images\Location_Button_Clicked.png" />
+    <Content Include="Images\Location_Button_Hovered.png" />
+    <Content Include="Images\Location_Button_Unclicked.png" />
+    <Content Include="Images\Magic_Items_Button_Clicked.png" />
+    <Content Include="Images\Magic_Items_Button_Hovered.png" />
+    <Content Include="Images\Magic_Items_Button_Unclicked.png" />
+    <Content Include="Images\Magic_Store_Button_Clicked.png" />
+    <Content Include="Images\Magic_Store_Button_Hovered.png" />
+    <Content Include="Images\Magic_Store_Button_Unclicked.png" />
+    <Content Include="Images\Map_Button_Clicked.png" />
+    <Content Include="Images\Map_Button_Clicked_v2.png" />
+    <Content Include="Images\Map_Button_Hovered.png" />
+    <Content Include="Images\Map_Button_Hovered_v2.png" />
+    <Content Include="Images\Map_Button_Unclicked.png" />
+    <Content Include="Images\Map_Button_Unclicked_v2.png" />
+    <Content Include="Images\Menu_Screen.png" />
+    <Content Include="Images\Quests_Button_Clicked.png" />
+    <Content Include="Images\Quests_Button_Hovered.png" />
+    <Content Include="Images\Quests_Button_Unclicked.png" />
+    <Content Include="Images\Quests_Menu_Window.png" />
+    <Content Include="Images\Stats_Button_Clicked.png" />
+    <Content Include="Images\Stats_Button_Hovered.png" />
+    <Content Include="Images\Stats_Button_Unclicked.png" />
+    <Content Include="Images\Stats_Menu_Window.png" />
+    <Content Include="Images\Store_Button_Clicked.png" />
+    <Content Include="Images\Store_Button_Hovered.png" />
+    <Content Include="Images\Store_Button_Unclicked.png" />
+    <Content Include="Images\Store_Menu_Window.png" />
+    <Content Include="Images\Useable_Items_Button_Clicked.png" />
+    <Content Include="Images\Useable_Items_Button_Hovered.png" />
+    <Content Include="Images\Useable_Items_Button_Unclicked.png" />
+    <Content Include="Images\Useable_Store_Button_Clicked.png" />
+    <Content Include="Images\Useable_Store_Button_Hovered.png" />
+    <Content Include="Images\Useable_Store_Button_Unclicked.png" />
+    <Content Include="Images\World_Map.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

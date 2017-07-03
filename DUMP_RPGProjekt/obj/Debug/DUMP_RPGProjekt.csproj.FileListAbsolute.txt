@@ -1,0 +1,9 @@
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\bin\Debug\DUMP_RPGProjekt.exe.config
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\bin\Debug\DUMP_RPGProjekt.exe
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\bin\Debug\DUMP_RPGProjekt.pdb
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.csprojResolveAssemblyReference.cache
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.MainWIndow.resources
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.Properties.Resources.resources
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.csproj.GenerateResource.Cache
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.exe
+C:\Users\MERI\documents\visual studio 2017\Projects\DUMP_RPGProjekt\DUMP_RPGProjekt\obj\Debug\DUMP_RPGProjekt.pdb
